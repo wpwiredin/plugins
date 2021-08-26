@@ -2,8 +2,8 @@ import logo from './logo-plugins.png';
 import './App.css';
 
 const LogoStyle = {
-  marginTop: '160px',
-  marginLeft: '360px'
+  marginTop: '132px',
+  marginLeft: '320px'
 }
 
 function App() {
