@@ -1,10 +1,12 @@
 import logo from './logo-plugins.png';
+import mrv_plugin from './multi_roles_vendor.zip';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.css';
 
 const LogoStyle = {
   width: '20%',
   marginTop: '132px',
-  marginLeft: '288px'
+  marginLeft: '200px'
 }
 
 function App() {
@@ -18,6 +20,12 @@ function App() {
             <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
             <img alt="" border="0" src="https://www.paypal.com/en_ZA/i/scr/pixel.gif" width="1" height="1" />
         </form>
+        <br />
+        <h3>Downloads</h3><br />
+
+        <h4>Multi Roles Vendor Plugin for WooCommerce Marketplace</h4>
+        <br />
+        <a className="btn btn-primary" href={mrv_plugin} download>Download</a>
     </div>
     </>
   );
