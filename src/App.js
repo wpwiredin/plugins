@@ -4,7 +4,7 @@ import './App.css';
 const LogoStyle = {
   width: '20%',
   marginTop: '132px',
-  marginLeft: '320px'
+  marginLeft: '288px'
 }
 
 function App() {
