@@ -9,7 +9,8 @@ const LogoStyle = {
 
 function App() {
   return (
-    <div className="App">
+ <>
+ <div className="App">
         <img src={logo} alt={"logo"} style={LogoStyle} />
         <br />
         <form action="https://www.paypal.com/donate" method="post" target="_top">
@@ -17,6 +18,7 @@ function App() {
             <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
             <img alt="" border="0" src="https://www.paypal.com/en_ZA/i/scr/pixel.gif" width="1" height="1" />
     </div>
+    </>
   );
 }
 
