@@ -1,5 +1,5 @@
 import logo from './logo-plugins.png';
-import mrv_plugin from './multi_roles_vendor.zip';
+import mrv_plugin from 'https://wordpress.org/plugins/multi-roles-vendor/';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.css';
 
@@ -25,7 +25,7 @@ function App() {
 
         <h4>Multi Roles Vendor Plugin for WooCommerce Marketplace</h4>
         <br />
-        <a className="btn btn-primary" href={mrv_plugin} download>Download</a>
+        <a className="btn btn-primary" href={mrv_plugin} target={"_blank"}>Download from Wordpress</a>
     </div>
     </>
   );
