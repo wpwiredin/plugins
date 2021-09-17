@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 const LogoStyle = {
   width: '20%',
   marginTop: '112px',
-  marginLeft: '80px'
+  marginLeft: '52px'
 }
 
 function App() {
