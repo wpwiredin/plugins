@@ -26,6 +26,8 @@ function App() {
         <h4>Multi Roles Vendor Plugin for WooCommerce Marketplace</h4>
         <br />
         <a className="btn btn-primary" href={"https://wordpress.org/plugins/multi-roles-vendor/"} target={"_blank"}>Download from Wordpress</a>
+        <br />
+        <p>All Plugins created and maintained by <a href={"https://twitter.com/mabotja_william"}>William Mabotja</a></p>
     </div>
     </>
   );
